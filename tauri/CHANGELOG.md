@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.9.0]
+
+-   make sure css content injected is inside a string and not injected raw
+    -   [e3e2e39](https://www.github.com/tauri-apps/tauri/commit/e3e2e3920833627400ee7a5b000dc6e51d8d332b) fix(tauri) ensure css content is loaded inside a string ([#884](https://www.github.com/tauri-apps/tauri/pull/884)) on 2020-07-22
+-   Pin the `tauri-api` dependency on the `tauri` crate so updates doesn't crash the build.
+    -   [ad717c6](https://www.github.com/tauri-apps/tauri/commit/ad717c6f33b4d6e20fbb13cbe30e06946dbb74f6) chore(tauri) pin tauri-api dep version ([#872](https://www.github.com/tauri-apps/tauri/pull/872)) on 2020-07-21
+-   Fixes the Webview initialization on Windows.
+    -   [4abd12c](https://www.github.com/tauri-apps/tauri/commit/4abd12c2a42b5ace8527114ab64da38f4486754f) fix(tauri) webview initialization on windows, fixes [#879](https://www.github.com/tauri-apps/tauri/pull/879) ([#885](https://www.github.com/tauri-apps/tauri/pull/885)) on 2020-07-23
+
 ## [0.8.0]
 
 -   Use native dialog on `window.alert` and `window.confirm`.

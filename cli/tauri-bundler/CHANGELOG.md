@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.9.1]
+
+-   Bundling every DLL file on the binary directory.
+    -   [a00ac02](https://www.github.com/tauri-apps/tauri/commit/a00ac023eef9f7b3a508ca9acd664470382d7d06) fix(bundler) webview dll not being bundled, fixes [#875](https://www.github.com/tauri-apps/tauri/pull/875) ([#889](https://www.github.com/tauri-apps/tauri/pull/889)) on 2020-07-24
+
 ## [0.9.0]
 
 -   Fixes the AppImage bundling on containers.
